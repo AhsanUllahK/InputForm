@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <dialog id="favDialog">
+        <div class="container">
+
+            <form action="#" id="form" method="dialog">
+                
+                <div class="row">                    
+                    <div class="col-25">
+                        <label for="rollno">Enter Roll No:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="rollno" id="rollno" placeholder="rollno">
+                    </div>
+                </div>
+
+                
+                
+                <div class="row">                    
+                    <div class="col-25">
+                        <label for="name">Enter Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                </div>
+
+                
+                <div class="row">                    
+                    <div class="col-25">
+                        <label for="fname">Enter Father Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="fname" id="fname" placeholder="Father Name">
+                    </div>
+                </div>
+
+                
+                <div class="row">                    
+                    <div class="col-25">
+                        <label for="rollno">Enter Phone Number:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Mobile Number">
+                    </div>
+                </div>
+
+                
+                <div class="row">                    
+                    <div class="col-25">
+                        <label for="email">Enter Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+
+                
+                <div class="row">                    
+                    <div class="col-25">
+                        <label for="DOB">Enter Date of Birth:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" name="DOB" id="DOB" placeholder="Date of Birth">
+                    </div>
+                </div>
+
+                <input type="submit" value="Submit Form" id="submitButton">
+            </form>
+        </div>
+    </dialog>
+    
+    <p>
+        <button id="updateDetail">Add New</button>
+    </p>
+
+    <div class="newData">
+        <div>
+            <span>ROLLNO</span>
+            <span>Name</span>
+            <span>Fname</span>
+            <span>phoneNumber</span>
+            <span>email</span>
+            <span>dob</span>
+            <span>edit</span>
+            <span>delete</span>
+        </div>
+        
+        <div id="show">
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
